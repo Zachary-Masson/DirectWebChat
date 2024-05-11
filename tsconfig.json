@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "forceConsistentCasingInFileNames": false,
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": false,
+    "esModuleInterop": true,
+    "typeRoots": ["./src/types", "./node_modules/@types"],
+    "types": ["node", "express"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
